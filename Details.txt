@@ -95,8 +95,21 @@ Next Session:
         CCSSOM Tree --> which is used to painting or format the HTML rendered
         CSS: Presentation/Skin/Makeup ---> Beautification
 
-    JS:
-      functional Brain of HTML --> Client Side( Page User will see ) scripting / functional script
-      BrowserJs vs Nodejs
-    
-    
+      JS:
+        functional Brain of HTML --> Client Side( Page User will see ) scripting / functional script
+        BrowserJs vs Nodejs
+      
+      Logics & Tricks:
+
+      Iteration Debugging
+
+      two iteration variables
+
+      Recursion
+        
+      Mapping Logics:
+
+        using a object to solve the problem
+
+      Local Setup for VS Settings
+
