@@ -1,0 +1,102 @@
+Git Bash / CMD Line
+
+  1. CMD Line
+    Create/Intialize a Repository - git init
+
+    Status -> git status
+
+    Adding/Staging Files to the Repo: 
+      git add <files/file>
+      Single File:
+        git add <file-name>
+
+      Add All files:
+        git add .
+    
+    Removing Staged Files:
+      git rm --cached <file-name>
+
+      git rm -r --cached .
+
+    Commit: timebased version of Your development
+      whatever the staged files You can put it into the git commit
+
+      git commit -m "all files are added"
+
+    Remote:
+      git remote -v --> seeing the info about remotes
+
+      git remote add origin <remote-name> --> adding a new remote with name origin
+
+    Push with new branch:
+      git push --set-upstream origin <branch-name>
+
+    Pull from Remote:
+      git pull origin <branch-name>
+
+Roadmap 1st Half:
+  Module 1:
+    Basic Browser and JS basics
+
+  Module 2:
+    HTML CSS
+
+  Module 3:
+    DOM with JS
+
+  Module 4:
+    Async Programming in JS
+
+Topics:
+  Introduction to World Wide Web www
+
+  working of internet with HTTP/HTTPS
+
+    DNS - Domain Name System
+
+  Evolution Of Browsers
+    Mosaic
+    Natscap, Internet Explorer
+    Chrome, Mozilla, Edge
+
+  IP Address, MAC Address, HTTP Status, methods
+
+  IP - Internet Protocol Address is used to identify network in internet( WWW/Golbal Public Network )
+
+  MAC: Media Access Control Address -> local addresses to identify/access media on a local network
+
+  http1.1 vs http2:
+    reference --> https://www.wallarm.com/what/what-is-http-2-and-how-is-it-different-from-http-1
+
+  http / https:
+
+    http is a public network, data transferred from client <-> server was not secure
+
+    https: data transferred is on a secured network with encryption
+
+  http status, response codes to understand connection
+    1xx - info
+    2xx - Success
+    3xx - Redirection / Unchanged
+    4xx - Client Error 
+    5xx - Server Error
+
+Next Session:
+  Rendering ---> Convert HTML code to Beatiful webpage
+    Hyper Text Mark Up Language
+    HTML Rendering Process Or DOM:
+      DOM --> Document Object Model
+        Skeleton Of Webpage
+
+      1. Browser Fetchs the HTML Document
+      2. Parses it via 
+        DOM Tree --> which is used to rendering
+      3. CSS -> Written Inside/outside HTML
+        CCSSOM Tree --> which is used to painting or format the HTML rendered
+        CSS: Presentation/Skin/Makeup ---> Beautification
+
+    JS:
+      functional Brain of HTML --> Client Side( Page User will see ) scripting / functional script
+      BrowserJs vs Nodejs
+    
+    
