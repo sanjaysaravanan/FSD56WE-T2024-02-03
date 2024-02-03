@@ -81,6 +81,18 @@ Topics:
     4xx - Client Error 
     5xx - Server Error
 
+  Task submission
+  
+Task:
+
+  Day 1:
+    https://docs.google.com/document/d/1QznT1zM4mI6dG0TODx5Xjs1GquMoSHO3xZ1USDnVM-w/edit
+
+    Object Representation:
+      use https://pythontutor.com/render.html#mode=display
+
+      and see the internal storing of the object variables ( OBJECT & ARRAY )
+
 Next Session:
   Rendering ---> Convert HTML code to Beatiful webpage
     Hyper Text Mark Up Language
